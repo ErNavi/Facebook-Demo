@@ -1,0 +1,107 @@
+<html>
+<head>
+  <title>Facebook Demo</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js "></script>
+  
+<script src="edit_post.js"></script>
+
+
+
+  <style>
+
+textarea#text {
+    
+background-color:#F7F7F7;resize: none;
+    
+}
+  .glyphicon {
+    font-size: 15px; color: #3b5998;
+}
+
+  #post{
+
+    border-style: none; border-color: Transparent;display: block;margin-left: auto;margin-right: auto;background-color: #F7F7F7;
+  }
+
+  .img{
+    border-radius:50%;width:50px;height:50px;align:center;
+  }
+
+  .profile_img{
+    border-radius:10%;width:70px;height:70px;align:center;
+  }
+
+.status{
+    font-size: 15px;margin-top:5%;
+    background-color:#F7F7F7; height:200px;
+  }
+
+
+  </style>
+
+
+</head>
+<body style="background-color: #F7F7F7;overflow-y:scroll;">
+
+<div class="row">
+  <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12" style="background-color: #3b5998;height:8%;position:fixed;top:0px;left:0px;z-index: 999;">
+    <a href="home.html"><img src="pics/fb.jpeg" alt="fb" style="margin-left:10px;margin-top:10px" width='50px' height='30px'></img></a>
+         <a style="float:right;margin-right:30%;margin-top:10px;color:white" href="http://fbdemo.uphero.com/user.html?uId=4">Sachin</a>
+
+
+  </div>  
+</div>  
+    
+  
+
+<div class="row" style="margin-top:8%;margin-left:5%;" >
+  <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">
+    <figure> 
+        <img src="pics/blank.jpeg" class="profile_img" />
+        <label>Sachin Tendulkar</label>
+      </figure>
+
+    <ul class="nav nav-stacked" style="margin-top:10%">
+      <li role="home"><span class="glyphicon glyphicon-home">&nbsp;<a href="#">Home</a></span></li>
+      <li role="friends"><span class="glyphicon glyphicon-user">&nbsp;<a href="friends.html">Friends</a></span></li>
+    </ul>
+
+
+  </div>
+    
+  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="background-color:white">
+
+    <div class="form-group" style="margin-top:2% ;">
+      <form class="contact">  
+      
+        <textarea class="form-control" rows="4"  id="text" name="text" placeholder="What's on your mind?"></textarea>
+        
+      <input type="submit" class="btn btn-primary" value="Post" name="submit" id="submit" style="float:right;margin-left:1%;margin-top:1%;margin-bottom:1%"></input>
+       
+      
+      </form> 
+    </div>
+    <br/><br/>
+
+    
+    <div  id="status">  
+     
+    </div>
+  </div>  
+
+
+
+  <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3" id="friend_options" style="margin-left:5%"><span style="font-size:20px; color:#3b5998"></span>
+  </div>
+</div>
+
+</body>
+</html>
+
