@@ -1,4 +1,4 @@
-# Face-Demo
+# Facebook-Demo
 Aim: To create a small version of Facebook including following features:
 1. Post Status
 2. View Friend’s Post
