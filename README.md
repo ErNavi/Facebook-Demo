@@ -5,8 +5,6 @@ Aim: To create a small version of Facebook including following features:
 3. Friends List
 4. Add Friend
 
-Link: http://fbdemo.uphero.com/home.html
-
 NOTE: The name and userId for the first user is ‘ Sachin Tendulkar ’ and ‘ 4 ’ respectively.
 
 Post Status : Enter the text into the textarea and click on POST button. The status will be
